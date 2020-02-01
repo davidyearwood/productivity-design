@@ -1,0 +1,21 @@
+{
+  "name": "frontend-lab",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "sass-watch": "node-sass -w app/sass/main.scss public/stylesheets/main.css",
+    "pug": "pug",
+    "pug-watch": "pug app/index.pug --watch --out public",
+    "start": "yarn run pug-watch & yarn run sass-watch"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.1",
+    "pug": "^2.0.4",
+    "pug-cli": "^1.0.0-alpha6"
+  },
+  "dependencies": {
+    "frontline-css-reset": "^3.0.1",
+    "frontline-sass": "^3.7.7"
+  }
+}

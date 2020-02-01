@@ -1,0 +1,29 @@
+
+Open SVG
+Paste markup
+Demo
+Contribute
+About
+Powered by the incredible SVGO
+
+
+622 bytes → 561 bytes 90.19%
+<svg width="50" height="50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g clip-path="url(#clip0)">
+    <g opacity=".85" filter="url(#filter0_f)">
+      <rect y="25" width="50" height="25" rx="12.5" fill="#F03E3D"/>
+    </g>
+    <rect width="50" height="50" rx="19" fill="#F03E3D"/>
+    <path d="M25 33.14c.14 0 .29-.05.4-.16l5.56-5.35c.08-.09 2.04-1.88 2.04-4.02 0-2.62-1.6-4.18-4.27-4.18-1.56 0-3.02 1.23-3.73 1.93-.7-.7-2.17-1.93-3.73-1.93-2.67 0-4.27 1.56-4.27 4.18 0 2.14 1.96 3.93 2.04 4l5.57 5.37c.1.1.25.16.39.16z" fill="#fff"/>
+  </g>
+  <defs>
+    <clipPath id="clip0">
+      <path fill="#fff" d="M0 0h50v50H0z"/>
+    </clipPath>
+    <filter id="filter0_f" x="-27.18" y="-2.18" width="104.37" height="79.37" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="13.59" result="effect1_foregroundBlur"/>
+    </filter>
+  </defs>
+</svg>

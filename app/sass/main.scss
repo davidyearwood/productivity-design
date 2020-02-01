@@ -1,0 +1,11 @@
+// Font
+@import url('https://fonts.googleapis.com/css?family=Poppins:500,600,700&display=swap');
+
+// Styles Reset
+@import '../../node_modules/frontline-css-reset/frontline-css-reset';
+
+// Variables
+@import 'var.scss';
+
+// Mixin, functions, and helpers
+@import '../../node_modules/frontline-sass/dist/frontline';

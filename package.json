@@ -10,7 +10,7 @@
     "start": "yarn run pug-watch & yarn run sass-watch"
   },
   "devDependencies": {
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "pug": "^2.0.4",
     "pug-cli": "^1.0.0-alpha6"
   },
